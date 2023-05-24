@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "todos",
+  "info": {
+    "singularName": "todo",
+    "pluralName": "todos",
+    "displayName": "Todo"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "Note": {
+      "type": "string",
+      "required":true,
+      "maxLength":40
+    },
+    "isDone": {
+      "type": "boolean",
+      "default":false
+
+    }
+  }
+}
